@@ -1,1 +1,0 @@
-CallAnApi.run() |> IO.inspect

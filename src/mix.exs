@@ -14,6 +14,7 @@ defmodule CallAnApi.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
+      mod: {Entrypoint, []},
       extra_applications: [:logger]
     ]
   end
@@ -22,7 +23,7 @@ defmodule CallAnApi.MixProject do
   defp deps do
     [
       {:httpoison, "~> 1.8"},
-      {:poison, "~> 5.0"}
+      {:json, "~> 1.4"}
     ]
   end
 end
