@@ -5,7 +5,7 @@ help: ## Show all help information
 
 .PHONY: dev
 dev: ## Start development server, watches for changes and restarts process
-	watchexec -w entrypoint.exs elixir entrypoint.exs
+	cd ./src && watchexec -e exs,ex mix run
 
 .PHONY: install-dev-deps
 install-dev-deps: ## Install implicit dependencies for development

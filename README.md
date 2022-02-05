@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> Simple Hello World setup for Elixir. I might make this a template for myself, who knows?
+> Calling an API, retrieving a bunch of pokemans, what's not to like?
 
 ## Install
 

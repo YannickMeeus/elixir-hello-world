@@ -28,3 +28,7 @@ hello_world-*.tar
 .elixir_ls
 .vscode
 .DS_Store
+
+src/.idea
+src/_build/dev/lib
+src/deps
